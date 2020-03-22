@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+
+<div>
+    <img src="img/babyFever.jpg" title="Baby Fever" alt="Baby Fever">
+
+    <form th:action="@{/temperature}" method="get">
+        <input type="text" id="contact" name="contact" placeholder="Enter The Name"/>
+        <button type="submit">Send</button>
+    </form>
+
+
+
+</div>
+</body>
+</html>
